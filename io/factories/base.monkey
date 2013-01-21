@@ -1,0 +1,4 @@
+Strict
+
+Class xFactory
+End
