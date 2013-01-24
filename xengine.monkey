@@ -1,6 +1,9 @@
 Strict
 
+Import native
 Import application
+
+Import mobile.mobile
 
 Import io.ini
 Import io.resources
@@ -17,3 +20,4 @@ Import components.tilemap
 
 Import fx.tween
 Import fx.transition
+
