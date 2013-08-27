@@ -1,5 +1,7 @@
 Strict
 
+Import vector
+
 Class xPoint
 
 Public
@@ -29,6 +31,11 @@ Public
 	Method Set:Void(point:xPoint)
 		Self.X = point.X
 		Self.Y = point.Y
+	End
+	
+	Method Set:Void(vector:xVector)
+		Self.X = vector.X
+		Self.Y = vector.Y
 	End
 	
 	'Get as String

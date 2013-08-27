@@ -1,8 +1,6 @@
 Strict
 
-Import xengine.events.event
-
-Class xEvent_Logger Extends xEvent Abstract
+Class xLoggerBase Abstract
 	Const INFO:String = "INFO"
 	Const ALERT:String = "ALERT"
 	Const ERROR:String = "ERROR"
@@ -18,4 +16,5 @@ Class xEvent_Logger Extends xEvent Abstract
 	Field action:String
 	
 	Method Invoke:Void() Abstract
+	
 End

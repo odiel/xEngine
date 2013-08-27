@@ -96,7 +96,7 @@ Public
 	
 	'Subtract values from vector
 	'------------------------------------------------------
-	Method Subtract:xVector(vector:xVector)
+	Method Substract:xVector(vector:xVector)
 		Self.X-=vector.X
 		Self.Y-=vector.Y
 		Return Self	

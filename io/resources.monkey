@@ -6,6 +6,7 @@ Import xengine.io.resources.resource
 Import xengine.io.resources.font
 Import xengine.io.resources.imageframe
 Import xengine.io.ini
+Import xengine.io.logger.base
 
 
 Global xResources:= New xResourceManager()
@@ -325,20 +326,11 @@ Class xResourceManager
 
 	'Invoke the logger event handler
 	'------------------------------------------------------
-	Method EnableLogs:Void(status:Bool = True, handler:xEvent_Logger = Null)
-		Self._log = status
-		
-		If handler <> null
-			Self.SetLogEventHandler(handler)	
-		End
+	Method SetLogger:Void(logger:xLoggerBase)
+		Self._logger = logger
 	End
 	
-	'Define the logger event handler
-	'------------------------------------------------------
-	Method SetLogEventHandler:Void(handler:xEvent_Logger)
-		Self._logEventHandler = handler
-	End
-	
+
 Private
 
 	Field _resources_images:= New StringMap<Image>
@@ -350,20 +342,18 @@ Private
 	Field _resources:= New StringMap<xResource>
 
 	Method log:Void(level:String, code:Int, message:String, section:String = "", action:String = "")
-		If (Self._log = True And Self._logEventHandler <> null)
-			Self._logEventHandler.time = "12:00:00"
-			Self._logEventHandler.date = "2012-12-12"
-			Self._logEventHandler.message = message
-			Self._logEventHandler.level = level
-			Self._logEventHandler.section = section
-			Self._logEventHandler.action = action
-			Self._logEventHandler.code = code
-			Self._logEventHandler.Invoke()
+		If (Self._logger <> Null)
+			Self._logger.time = "12:00:00"
+			Self._logger.date = "2012-12-12"
+			Self._logger.message = message
+			Self._logger.level = level
+			Self._logger.section = section
+			Self._logger.action = action
+			Self._logger.code = code
+			Self._logger.Invoke()
 		End	
 	End
 
-	Field _log:Bool = False
-	
-	Field _logEventHandler:xEvent_Logger
+	Field _logger:xLoggerBase
 	
 End

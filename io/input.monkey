@@ -17,101 +17,101 @@ Public
 
 	Field DoublePushTime:Int = 200
 
-	Field Key_Backspace:xInputButton = New xInputKey(mojo.input.KEY_BACKSPACE)
-	Field Key_Tab:xInputButton = New xInputKey(mojo.input.KEY_TAB)
-	Field Key_Enter:xInputButton = New xInputKey(mojo.input.KEY_ENTER)
-	Field Key_Escape:xInputButton = New xInputKey(mojo.input.KEY_ESCAPE)
-	Field Key_Space:xInputButton = New xInputKey(mojo.input.KEY_SPACE)
-	Field Key_Shift:xInputButton = New xInputKey(mojo.input.KEY_SHIFT)
-	Field Key_Control:xInputButton = New xInputKey(mojo.input.KEY_CONTROL)
-	Field Key_PageUp:xInputButton = New xInputKey(mojo.input.KEY_PAGEUP)
-	Field Key_PageDown:xInputButton = New xInputKey(mojo.input.KEY_PAGEDOWN)
-	Field Key_End:xInputButton = New xInputKey(mojo.input.KEY_END)
-	Field Key_Home:xInputButton = New xInputKey(mojo.input.KEY_HOME)
-	Field Key_Left:xInputButton = New xInputKey(mojo.input.KEY_LEFT)
-	Field Key_Up:xInputButton = New xInputKey(mojo.input.KEY_UP)
-	Field Key_Right:xInputButton = New xInputKey(mojo.input.KEY_RIGHT)
-	Field Key_Down:xInputButton = New xInputKey(mojo.input.KEY_DOWN)
-	Field Key_Insert:xInputButton = New xInputKey(mojo.input.KEY_INSERT)
-	Field Key_Delete:xInputButton = New xInputKey(mojo.input.KEY_DELETE)
-	Field Key_F1:xInputButton = New xInputKey(mojo.input.KEY_F1)
-	Field Key_F2:xInputButton = New xInputKey(mojo.input.KEY_F2)
-	Field Key_F3:xInputButton = New xInputKey(mojo.input.KEY_F3)
-	Field Key_F4:xInputButton = New xInputKey(mojo.input.KEY_F4)
-	Field Key_F5:xInputButton = New xInputKey(mojo.input.KEY_F5)
-	Field Key_F6:xInputButton = New xInputKey(mojo.input.KEY_F6)
-	Field Key_F7:xInputButton = New xInputKey(mojo.input.KEY_F7)
-	Field Key_F8:xInputButton = New xInputKey(mojo.input.KEY_F7)
-	Field Key_F9:xInputButton = New xInputKey(mojo.input.KEY_F9)
-	Field Key_F10:xInputButton = New xInputKey(mojo.input.KEY_F10)
-	Field Key_F11:xInputButton = New xInputKey(mojo.input.KEY_F11)
-	Field Key_F12:xInputButton = New xInputKey(mojo.input.KEY_F12)
-	Field Key_1:xInputButton = New xInputKey(mojo.input.KEY_1)
-	Field Key_2:xInputButton = New xInputKey(mojo.input.KEY_2)
-	Field Key_3:xInputButton = New xInputKey(mojo.input.KEY_3)
-	Field Key_4:xInputButton = New xInputKey(mojo.input.KEY_4)
-	Field Key_5:xInputButton = New xInputKey(mojo.input.KEY_5)
-	Field Key_6:xInputButton = New xInputKey(mojo.input.KEY_6)
-	Field Key_7:xInputButton = New xInputKey(mojo.input.KEY_7)
-	Field Key_8:xInputButton = New xInputKey(mojo.input.KEY_8)
-	Field Key_9:xInputButton = New xInputKey(mojo.input.KEY_9)
-	Field Key_0:xInputButton = New xInputKey(mojo.input.KEY_0)
-	Field Key_A:xInputButton = New xInputKey(mojo.input.KEY_A)
-	Field Key_B:xInputButton = New xInputKey(mojo.input.KEY_B)
-	Field Key_C:xInputButton = New xInputKey(mojo.input.KEY_C)
-	Field Key_D:xInputButton = New xInputKey(mojo.input.KEY_D)
-	Field Key_E:xInputButton = New xInputKey(mojo.input.KEY_E)
-	Field Key_F:xInputButton = New xInputKey(mojo.input.KEY_F)
-	Field Key_G:xInputButton = New xInputKey(mojo.input.KEY_G)
-	Field Key_H:xInputButton = New xInputKey(mojo.input.KEY_H)
-	Field Key_I:xInputButton = New xInputKey(mojo.input.KEY_I)
-	Field Key_J:xInputButton = New xInputKey(mojo.input.KEY_J)
-	Field Key_K:xInputButton = New xInputKey(mojo.input.KEY_K)
-	Field Key_L:xInputButton = New xInputKey(mojo.input.KEY_L)
-	Field Key_M:xInputButton = New xInputKey(mojo.input.KEY_M)
-	Field Key_N:xInputButton = New xInputKey(mojo.input.KEY_N)
-	Field Key_O:xInputButton = New xInputKey(mojo.input.KEY_O)
-	Field Key_P:xInputButton = New xInputKey(mojo.input.KEY_P)
-	Field Key_Q:xInputButton = New xInputKey(mojo.input.KEY_Q)
-	Field Key_R:xInputButton = New xInputKey(mojo.input.KEY_R)
-	Field Key_S:xInputButton = New xInputKey(mojo.input.KEY_S)
-	Field Key_T:xInputButton = New xInputKey(mojo.input.KEY_T)
-	Field Key_U:xInputButton = New xInputKey(mojo.input.KEY_U)
-	Field Key_V:xInputButton = New xInputKey(mojo.input.KEY_V)
-	Field Key_W:xInputButton = New xInputKey(mojo.input.KEY_W)
-	Field Key_X:xInputButton = New xInputKey(mojo.input.KEY_X)
-	Field Key_Y:xInputButton = New xInputKey(mojo.input.KEY_Y)
-	Field Key_Z:xInputButton = New xInputKey(mojo.input.KEY_Z)
-	Field Key_Tilde:xInputButton = New xInputKey(mojo.input.KEY_TILDE)
-	Field Key_Minus:xInputButton = New xInputKey(mojo.input.KEY_MINUS)
-	Field Key_Equals:xInputButton = New xInputKey(mojo.input.KEY_EQUALS)
-	Field Key_OpenBracket:xInputButton = New xInputKey(mojo.input.KEY_OPENBRACKET)
-	Field Key_CloseBracket:xInputButton = New xInputKey(mojo.input.KEY_CLOSEBRACKET)
-	Field Key_BackSlash:xInputButton = New xInputKey(mojo.input.KEY_BACKSLASH)
-	Field Key_Semicolon:xInputButton = New xInputKey(mojo.input.KEY_SEMICOLON)
-	Field Key_Quotes:xInputButton = New xInputKey(mojo.input.KEY_QUOTES)
-	Field Key_Comma:xInputButton = New xInputKey(mojo.input.KEY_COMMA)
-	Field Key_Period:xInputButton = New xInputKey(mojo.input.KEY_PERIOD)
-	Field Key_Slash:xInputButton = New xInputKey(mojo.input.KEY_SLASH)
+	Field Key_Backspace:xInputKey = New xInputKey(mojo.input.KEY_BACKSPACE)
+	Field Key_Tab:xInputKey = New xInputKey(mojo.input.KEY_TAB)
+	Field Key_Enter:xInputKey = New xInputKey(mojo.input.KEY_ENTER)
+	Field Key_Escape:xInputKey = New xInputKey(mojo.input.KEY_ESCAPE)
+	Field Key_Space:xInputKey = New xInputKey(mojo.input.KEY_SPACE)
+	Field Key_Shift:xInputKey = New xInputKey(mojo.input.KEY_SHIFT)
+	Field Key_Control:xInputKey = New xInputKey(mojo.input.KEY_CONTROL)
+	Field Key_PageUp:xInputKey = New xInputKey(mojo.input.KEY_PAGEUP)
+	Field Key_PageDown:xInputKey = New xInputKey(mojo.input.KEY_PAGEDOWN)
+	Field Key_End:xInputKey = New xInputKey(mojo.input.KEY_END)
+	Field Key_Home:xInputKey = New xInputKey(mojo.input.KEY_HOME)
+	Field Key_Left:xInputKey = New xInputKey(mojo.input.KEY_LEFT)
+	Field Key_Up:xInputKey = New xInputKey(mojo.input.KEY_UP)
+	Field Key_Right:xInputKey = New xInputKey(mojo.input.KEY_RIGHT)
+	Field Key_Down:xInputKey = New xInputKey(mojo.input.KEY_DOWN)
+	Field Key_Insert:xInputKey = New xInputKey(mojo.input.KEY_INSERT)
+	Field Key_Delete:xInputKey = New xInputKey(mojo.input.KEY_DELETE)
+	Field Key_F1:xInputKey = New xInputKey(mojo.input.KEY_F1)
+	Field Key_F2:xInputKey = New xInputKey(mojo.input.KEY_F2)
+	Field Key_F3:xInputKey = New xInputKey(mojo.input.KEY_F3)
+	Field Key_F4:xInputKey = New xInputKey(mojo.input.KEY_F4)
+	Field Key_F5:xInputKey = New xInputKey(mojo.input.KEY_F5)
+	Field Key_F6:xInputKey = New xInputKey(mojo.input.KEY_F6)
+	Field Key_F7:xInputKey = New xInputKey(mojo.input.KEY_F7)
+	Field Key_F8:xInputKey = New xInputKey(mojo.input.KEY_F7)
+	Field Key_F9:xInputKey = New xInputKey(mojo.input.KEY_F9)
+	Field Key_F10:xInputKey = New xInputKey(mojo.input.KEY_F10)
+	Field Key_F11:xInputKey = New xInputKey(mojo.input.KEY_F11)
+	Field Key_F12:xInputKey = New xInputKey(mojo.input.KEY_F12)
+	Field Key_1:xInputKey = New xInputKey(mojo.input.KEY_1)
+	Field Key_2:xInputKey = New xInputKey(mojo.input.KEY_2)
+	Field Key_3:xInputKey = New xInputKey(mojo.input.KEY_3)
+	Field Key_4:xInputKey = New xInputKey(mojo.input.KEY_4)
+	Field Key_5:xInputKey = New xInputKey(mojo.input.KEY_5)
+	Field Key_6:xInputKey = New xInputKey(mojo.input.KEY_6)
+	Field Key_7:xInputKey = New xInputKey(mojo.input.KEY_7)
+	Field Key_8:xInputKey = New xInputKey(mojo.input.KEY_8)
+	Field Key_9:xInputKey = New xInputKey(mojo.input.KEY_9)
+	Field Key_0:xInputKey = New xInputKey(mojo.input.KEY_0)
+	Field Key_A:xInputKey = New xInputKey(mojo.input.KEY_A)
+	Field Key_B:xInputKey = New xInputKey(mojo.input.KEY_B)
+	Field Key_C:xInputKey = New xInputKey(mojo.input.KEY_C)
+	Field Key_D:xInputKey = New xInputKey(mojo.input.KEY_D)
+	Field Key_E:xInputKey = New xInputKey(mojo.input.KEY_E)
+	Field Key_F:xInputKey = New xInputKey(mojo.input.KEY_F)
+	Field Key_G:xInputKey = New xInputKey(mojo.input.KEY_G)
+	Field Key_H:xInputKey = New xInputKey(mojo.input.KEY_H)
+	Field Key_I:xInputKey = New xInputKey(mojo.input.KEY_I)
+	Field Key_J:xInputKey = New xInputKey(mojo.input.KEY_J)
+	Field Key_K:xInputKey = New xInputKey(mojo.input.KEY_K)
+	Field Key_L:xInputKey = New xInputKey(mojo.input.KEY_L)
+	Field Key_M:xInputKey = New xInputKey(mojo.input.KEY_M)
+	Field Key_N:xInputKey = New xInputKey(mojo.input.KEY_N)
+	Field Key_O:xInputKey = New xInputKey(mojo.input.KEY_O)
+	Field Key_P:xInputKey = New xInputKey(mojo.input.KEY_P)
+	Field Key_Q:xInputKey = New xInputKey(mojo.input.KEY_Q)
+	Field Key_R:xInputKey = New xInputKey(mojo.input.KEY_R)
+	Field Key_S:xInputKey = New xInputKey(mojo.input.KEY_S)
+	Field Key_T:xInputKey = New xInputKey(mojo.input.KEY_T)
+	Field Key_U:xInputKey = New xInputKey(mojo.input.KEY_U)
+	Field Key_V:xInputKey = New xInputKey(mojo.input.KEY_V)
+	Field Key_W:xInputKey = New xInputKey(mojo.input.KEY_W)
+	Field Key_X:xInputKey = New xInputKey(mojo.input.KEY_X)
+	Field Key_Y:xInputKey = New xInputKey(mojo.input.KEY_Y)
+	Field Key_Z:xInputKey = New xInputKey(mojo.input.KEY_Z)
+	Field Key_Tilde:xInputKey = New xInputKey(mojo.input.KEY_TILDE)
+	Field Key_Minus:xInputKey = New xInputKey(mojo.input.KEY_MINUS)
+	Field Key_Equals:xInputKey = New xInputKey(mojo.input.KEY_EQUALS)
+	Field Key_OpenBracket:xInputKey = New xInputKey(mojo.input.KEY_OPENBRACKET)
+	Field Key_CloseBracket:xInputKey = New xInputKey(mojo.input.KEY_CLOSEBRACKET)
+	Field Key_BackSlash:xInputKey = New xInputKey(mojo.input.KEY_BACKSLASH)
+	Field Key_Semicolon:xInputKey = New xInputKey(mojo.input.KEY_SEMICOLON)
+	Field Key_Quotes:xInputKey = New xInputKey(mojo.input.KEY_QUOTES)
+	Field Key_Comma:xInputKey = New xInputKey(mojo.input.KEY_COMMA)
+	Field Key_Period:xInputKey = New xInputKey(mojo.input.KEY_PERIOD)
+	Field Key_Slash:xInputKey = New xInputKey(mojo.input.KEY_SLASH)
 	
-	Field Mouse_Left:xInputButton = New xInputMouse(mojo.input.KEY_LMB)
-	Field Mouse_Right:xInputButton = New xInputMouse(mojo.input.KEY_RMB)
-	Field Mouse_Middle:xInputButton = New xInputMouse(mojo.input.KEY_MMB)
+	Field Mouse_Left:xInputMouse = New xInputMouse(mojo.input.KEY_LMB)
+	Field Mouse_Right:xInputMouse = New xInputMouse(mojo.input.KEY_RMB)
+	Field Mouse_Middle:xInputMouse = New xInputMouse(mojo.input.KEY_MMB)
 	
-	Field Joy_A:xInputButton = New xInputKey(mojo.input.KEY_JOY0_A)
-	Field Joy_B:xInputButton = New xInputKey(mojo.input.KEY_JOY0_B)
-	Field Joy_X:xInputButton = New xInputKey(mojo.input.KEY_JOY0_X)
-	Field Joy_Y:xInputButton = New xInputKey(mojo.input.KEY_JOY0_Y)
-	Field Joy_Lelft:xInputButton = New xInputKey(mojo.input.KEY_JOY0_LEFT)
-	Field Joy_Up:xInputButton = New xInputKey(mojo.input.KEY_JOY0_UP)
-	Field Joy_Right:xInputButton = New xInputKey(mojo.input.KEY_JOY0_RIGHT)
-	Field Joy_Down:xInputButton = New xInputKey(mojo.input.KEY_JOY0_DOWN)
+	Field Joy_A:xInputKey = New xInputKey(mojo.input.KEY_JOY0_A)
+	Field Joy_B:xInputKey = New xInputKey(mojo.input.KEY_JOY0_B)
+	Field Joy_X:xInputKey = New xInputKey(mojo.input.KEY_JOY0_X)
+	Field Joy_Y:xInputKey = New xInputKey(mojo.input.KEY_JOY0_Y)
+	Field Joy_Lelft:xInputKey = New xInputKey(mojo.input.KEY_JOY0_LEFT)
+	Field Joy_Up:xInputKey = New xInputKey(mojo.input.KEY_JOY0_UP)
+	Field Joy_Right:xInputKey = New xInputKey(mojo.input.KEY_JOY0_RIGHT)
+	Field Joy_Down:xInputKey = New xInputKey(mojo.input.KEY_JOY0_DOWN)
 	
-	Field Touch_0:xInputButton = New xInputTouch(mojo.input.KEY_TOUCH0, 0)
-	Field Touch_1:xInputButton = New xInputTouch(mojo.input.KEY_TOUCH0 + 1, 1)
-	Field Touch_2:xInputButton = New xInputTouch(mojo.input.KEY_TOUCH0 + 2, 2)
-	Field Touch_3:xInputButton = New xInputTouch(mojo.input.KEY_TOUCH0 + 3, 3)
-	Field Touch_4:xInputButton = New xInputTouch(mojo.input.KEY_TOUCH0 + 4, 4)
+	Field Touch_0:xInputTouch = New xInputTouch(mojo.input.KEY_TOUCH0, 0)
+	Field Touch_1:xInputTouch = New xInputTouch(mojo.input.KEY_TOUCH0 + 1, 1)
+	Field Touch_2:xInputTouch = New xInputTouch(mojo.input.KEY_TOUCH0 + 2, 2)
+	Field Touch_3:xInputTouch = New xInputTouch(mojo.input.KEY_TOUCH0 + 3, 3)
+	Field Touch_4:xInputTouch = New xInputTouch(mojo.input.KEY_TOUCH0 + 4, 4)
 	
 	Field IsAnyTouchDown:Bool = False
 	Field IsAnyTouchPress:Bool = False
@@ -415,7 +415,8 @@ End
 
 Class xInputTouch Extends xInputButton
 
-	Field Position:= New xPoint()
+	Field InitialPosition:= New xVector()
+	Field LastPosition:= New xVector()
 	Field Index:Int = 0
 
 	Method New(key:Int, index:Int)
@@ -425,8 +426,9 @@ Class xInputTouch Extends xInputButton
 
 	Method Update:Void()
 		If KeyDown(Self.Key) = True
-			Self.Position.Set(TouchX(Self.Index), TouchY(Self.Index))
-			xInput.LastTouchPosition.Set(Self.Position)
+			Self._lastUpdatePosition.Set(Self.LastPosition)
+			Self.LastPosition.Set(TouchX(Self.Index / xApplication.ScreenRatioX), TouchY(Self.Index) / xApplication.ScreenRatioY)
+			xInput.LastTouchPosition.Set(Self.LastPosition)
 		
 			Select Self.Status
 				Case INPUT_STATUS_DOWN
@@ -434,7 +436,8 @@ Class xInputTouch Extends xInputButton
 					xInput.IsAnyTouchPress = True
 				Case INPUT_STATUS_NONE
 					Self.Status = INPUT_STATUS_DOWN
-					Self.LastTime = xClockManager.GetTimeSinceStart()-10000
+					Self.LastTime = xClockManager.GetTimeSinceStart() -10000
+					Self.InitialPosition.Set(Self.LastPosition)
 					xInput.IsAnyTouchDown = True
 				Case INPUT_STATUS_PRESSED
 					xInput.IsAnyTouchPress = True
@@ -455,6 +458,10 @@ Class xInputTouch Extends xInputButton
 			Else 
 				Self.Status = INPUT_STATUS_NONE
 				
+				Self.InitialPosition.Set(0, 0)
+				Self.LastPosition.Set(0, 0)
+				Self._lastUpdatePosition.Set(0, 0)
+				
 				If Self._pushedTimes = 2
 					Self._pushedTimes = 0
 				Else If Self._pushedTimes = 1 And Millisecs() - Self._pushedLastTime > xInput.DoublePushTime
@@ -464,9 +471,22 @@ Class xInputTouch Extends xInputButton
 		End
 	End
 	
+	Method GetDistance:xVector()
+		Return _tmpVector.Set(Self.LastPosition.X - Self.InitialPosition.X, Self.LastPosition.Y - Self.InitialPosition.Y)
+	End
+	
+	Method GetDistanceSinceLastUpdate:xVector()
+		Return _tmpVector.Set(Self.LastPosition.X - Self._lastUpdatePosition.X, Self.LastPosition.Y - Self._lastUpdatePosition.Y)
+	End
+	
 Private
+	
+	Field _lastUpdatePosition:= New xVector()
+	Field _tmpVector:= New xVector()
 	
 	Field _pushedTimes:Int = 0
 	Field _pushedLastTime:Int = 0
+	
+	
 	
 End
